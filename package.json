@@ -1,0 +1,37 @@
+{
+  "name": "freshfraggerscup-bot",
+  "version": "1.0.0",
+  "description": "DEPENDENCIES (YOU MUST INSTALL THESE IN ORDER TO RUN THIS BOT):\r     - node.js [https://nodejs.org/en/]\r     - pm2 [http://pm2.keymetrics.io/]",
+  "main": "bot.js",
+  "engines": {
+    "node": "10.15.1",
+    "npm": "6.4.1"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "enmap": "^2.6.3",
+    "fs": "0.0.1-security",
+    "opusscript": "0.0.6",
+    "read-text-file": "^1.1.0",
+    "steamidconvert": "^0.2.4",
+    "request": "2.88.0",
+    "jsonpath-plus": "0.19.0",
+    "steam-community": "0.2.2",
+    "steamid": "1.1.2",
+    "jsonpath": "1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ElkTF2#9022",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elkypoo/freshfraggerscup-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Elkypoo/freshfraggerscup-bot/issues"
+  },
+  "homepage": "https://github.com/Elkypoo/freshfraggerscup-bot#readme"
+}
