@@ -7,7 +7,6 @@ const steam = require('steamidconvert')(process.env.STEAM_TOKEN);
 const SteamID = require('steamid');
 const request = require('request');
 const jp = require("jsonpath");
-//bruh
 
 var rolemsg;
 var guildUser;
@@ -80,10 +79,10 @@ client.on("message", (message) => {
               }
             } else {
               obj.players[message.author.id] = {
-                  status: "👀",
-                  sid64: sid64
-                }
-              
+                status: "👀",
+                sid64: sid64
+              }
+
             }
             console.log(obj)
             json = JSON.stringify(obj);
@@ -93,7 +92,7 @@ client.on("message", (message) => {
             var dateTime = date + ' ' + time;
             fs.writeFile('players.json', json, 'utf8', function () {
               message.channel.guild.channels.find("name", "players-json-logs").send(dateTime, { files: ["players.json"] })
-          })
+            })
 
           }
         });

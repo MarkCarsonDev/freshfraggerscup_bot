@@ -15,7 +15,6 @@ module.exports.run = (client, message, args) => {
             } else {
                 message.channel.send(`Sorry about that, but the length of this file exceeds Discord's capacity of 2000 (${content.length}/2000)`)
             }
-
         });
     }
 }

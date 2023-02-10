@@ -5,7 +5,4 @@ module.exports.run = (bot, message, args, config) => {
         var c = message.mentions.channels.first();
         c.send(m);
     }
-    else {
-
-    }
 };
